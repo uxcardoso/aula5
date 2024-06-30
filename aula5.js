@@ -1,12 +1,14 @@
-function seMultiplica(num1, num2) {
+function seMultiplica() {
+    let num1 = parseInt(prompt('Insira um número:'));
+    let num2 = parseInt(prompt('Insira outro número:'))
     if (num1 % num2 == 0) {
-        return console.log('é multiplo sim')
+        return alert('é multiplo sim')
     } else if (num2 % num1 == 0) {
-        return console.log('é multiplo sim')
+        return alert('é multiplo sim')
     } else {
-        return console.log('né não')
+        return alert('né não')
     }
 }
 
-seMultiplica(30,31);
-seMultiplica(80,2);
+seMultiplica();
+seMultiplica();
